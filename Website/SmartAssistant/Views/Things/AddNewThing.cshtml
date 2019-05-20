@@ -1,0 +1,26 @@
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
+
+@model SmartAssistant.ViewModels.AddThingViewModel
+@{
+    ViewBag.Title = "Додати річ до магазину";
+}
+<form asp-controller="Thing">
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <div class="form-group">
+        <label asp-for="name" class="control-label">@Localizer["Thing name"]</label>
+        <input type="text" asp-for="name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="kind" class="control-label">@Localizer["Thing kind"]</label>
+        <input type="text" asp-for="kind" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="price" class="control-label">@Localizer["Thing price"]</label>
+        <input type="text" asp-for="price" class="form-control" />
+    </div>
+    <div class="form-group">
+        <input type="submit" asp-route-id="@ViewBag.idShop" value="@Localizer["Add thing"]" class="btn btn-default" />
+    </div>
+</form>

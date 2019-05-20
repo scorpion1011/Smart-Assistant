@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2041
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAssistant", "SmartAssistant\SmartAssistant.csproj", "{04D4DA0C-EDCB-44CB-9981-95F515AAE8AA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SmartAssistant", "SmartAssistant\SmartAssistant.csproj", "{88626E63-E3EA-4635-9AF2-1C061A056C11}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{04D4DA0C-EDCB-44CB-9981-95F515AAE8AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{04D4DA0C-EDCB-44CB-9981-95F515AAE8AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{04D4DA0C-EDCB-44CB-9981-95F515AAE8AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{04D4DA0C-EDCB-44CB-9981-95F515AAE8AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88626E63-E3EA-4635-9AF2-1C061A056C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88626E63-E3EA-4635-9AF2-1C061A056C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88626E63-E3EA-4635-9AF2-1C061A056C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88626E63-E3EA-4635-9AF2-1C061A056C11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {82187DC8-DCD1-4049-AB5D-CE84A15EDAD7}
+		SolutionGuid = {F6EFFE67-F332-40B9-B776-948A29915867}
 	EndGlobalSection
 EndGlobal

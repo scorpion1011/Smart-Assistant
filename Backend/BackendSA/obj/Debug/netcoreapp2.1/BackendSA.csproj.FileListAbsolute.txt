@@ -1,0 +1,27 @@
+C:\Projects\smart assistant 2019\Backend\BackendSA\bin\Debug\netcoreapp2.1\BackendSA.deps.json
+C:\Projects\smart assistant 2019\Backend\BackendSA\bin\Debug\netcoreapp2.1\BackendSA.runtimeconfig.json
+C:\Projects\smart assistant 2019\Backend\BackendSA\bin\Debug\netcoreapp2.1\BackendSA.runtimeconfig.dev.json
+C:\Projects\smart assistant 2019\Backend\BackendSA\bin\Debug\netcoreapp2.1\BackendSA.dll
+C:\Projects\smart assistant 2019\Backend\BackendSA\bin\Debug\netcoreapp2.1\BackendSA.pdb
+C:\Projects\smart assistant 2019\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.csproj.CoreCompileInputs.cache
+C:\Projects\smart assistant 2019\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.RazorAssemblyInfo.cache
+C:\Projects\smart assistant 2019\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.RazorAssemblyInfo.cs
+C:\Projects\smart assistant 2019\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.AssemblyInfoInputs.cache
+C:\Projects\smart assistant 2019\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.AssemblyInfo.cs
+C:\Projects\smart assistant 2019\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.RazorTargetAssemblyInfo.cache
+C:\Projects\smart assistant 2019\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.dll
+C:\Projects\smart assistant 2019\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.pdb
+C:\Projects\SmartAssistant\Backend\BackendSA\bin\Debug\netcoreapp2.1\BackendSA.deps.json
+C:\Projects\SmartAssistant\Backend\BackendSA\bin\Debug\netcoreapp2.1\BackendSA.runtimeconfig.json
+C:\Projects\SmartAssistant\Backend\BackendSA\bin\Debug\netcoreapp2.1\BackendSA.runtimeconfig.dev.json
+C:\Projects\SmartAssistant\Backend\BackendSA\bin\Debug\netcoreapp2.1\BackendSA.dll
+C:\Projects\SmartAssistant\Backend\BackendSA\bin\Debug\netcoreapp2.1\BackendSA.pdb
+C:\Projects\SmartAssistant\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.csprojAssemblyReference.cache
+C:\Projects\SmartAssistant\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.csproj.CoreCompileInputs.cache
+C:\Projects\SmartAssistant\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.RazorAssemblyInfo.cache
+C:\Projects\SmartAssistant\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.RazorAssemblyInfo.cs
+C:\Projects\SmartAssistant\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.AssemblyInfoInputs.cache
+C:\Projects\SmartAssistant\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.AssemblyInfo.cs
+C:\Projects\SmartAssistant\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.RazorTargetAssemblyInfo.cache
+C:\Projects\SmartAssistant\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.dll
+C:\Projects\SmartAssistant\Backend\BackendSA\obj\Debug\netcoreapp2.1\BackendSA.pdb

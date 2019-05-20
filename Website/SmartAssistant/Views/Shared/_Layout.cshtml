@@ -1,4 +1,6 @@
-﻿
+﻿@using Microsoft.AspNetCore.Mvc.Localization
+
+@inject IViewLocalizer Localizer
 <!DOCTYPE html>
 <html>
 <head>
@@ -31,10 +33,30 @@
             </div>
             <div class="navbar-collapse collapse">
                 <ul class="nav navbar-nav">
-                    <li><a asp-area="" asp-controller="Home" asp-action="Index">Home</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="About">About</a></li>
-                    <li><a asp-area="" asp-controller="Home" asp-action="Contact">Contact</a></li>
+                    @if (User.Identity.IsAuthenticated)
+                    {
+                        @if (this.User.IsInRole("Customer") || this.User.IsInRole("Owner") || this.User.IsInRole("Seller"))
+                        {
+                            <li><a asp-area="" asp-controller="Profile" asp-action="Index">Profile</a></li>
+                        }
+                        @if (this.User.IsInRole("Owner"))
+                        {
+                            <li><a asp-area="" asp-controller="Shops" asp-action="Index">Shops</a></li>
+                        }
+                        @if (this.User.IsInRole("Customer"))
+                        {
+                            <li><a asp-area="" asp-controller="CustomerList" asp-action="Index">List</a></li>
+                        }
+                        @if (this.User.IsInRole("Admin"))
+                        {
+                            <li><a asp-area="" asp-controller="Users" asp-action="Index">@Localizer["Users"]</a></li>
+                            <li><a asp-area="" asp-controller="Roles" asp-action="Index">@Localizer["Roles"]</a></li>
+                        }
+
+                    }
                 </ul>
+
+                <partial name="_LoginPartial" />
             </div>
         </div>
     </nav>

@@ -66,5 +66,18 @@ namespace SmartAssistant.Controllers
             }
             return View(model);
         }
+
+        [HttpPost]
+        public async Task<IActionResult> Delete(int id)
+        {
+            var user = await GetCurrentUserAsync();
+            var userId = user?.Id;
+
+            WebRequest request = WebRequest.Create(_configuration.GetValue<string>("BackendUrl") + "api/list/" + id + "/" + userId);
+            request.Method = "Delete";
+            request.GetResponse();
+
+            return RedirectToAction("Index");
+        }
     }
 }

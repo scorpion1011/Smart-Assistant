@@ -12,7 +12,7 @@
 
   <ItemGroup>
     <Folder Include="Areas\Identity\Services\" />
-    <Folder Include="Views\Customer\" />
+    <Folder Include="Data\Migrations\" />
     <Folder Include="Views\Owner\" />
     <Folder Include="Views\Seller\" />
   </ItemGroup>

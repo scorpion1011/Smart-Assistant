@@ -5,13 +5,3 @@
 @{
     ViewData["Title"] = "Home Page";
 }
-
-
-@if (this.User.IsInRole("Customer"))
-{
-    <p>@User.Identity.Name</p>
-
-    <form method="post" asp-controller="Account" asp-action="LogOff">
-        <input type="submit" value="@Localizer["Log out"]" />
-    </form>
-}

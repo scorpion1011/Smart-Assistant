@@ -14,6 +14,6 @@ namespace SmartAssistant.Models
         public int Phone { get; set; }
 
         public ICollection<Shop> shops { get; set; }
-        public ICollection<UsersThings> usersthings { get; set; }
+        public ICollection<UsersListsThings> customerThings { get; set; }
     }
 }

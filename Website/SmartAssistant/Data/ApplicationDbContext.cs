@@ -18,9 +18,8 @@ namespace SmartAssistant.Data
 
         public DbSet<User> Users { get; set; }
         public DbSet<Thing> Things { get; set; }
-        public DbSet<CustomerList> CustomerLists { get; set; }
         public DbSet<Shop> Shops { get; set; }
-        public DbSet<UsersThings> UsersThings { get; set; }
+        public DbSet<UsersListsThings> UsersThings { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

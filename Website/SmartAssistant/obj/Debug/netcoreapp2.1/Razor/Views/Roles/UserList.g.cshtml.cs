@@ -95,7 +95,7 @@ Write(Localizer["List of users"]);
             WriteLiteral("</td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(318, 111, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "720310255e224e08828b2bd1bc687be6", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "eec792533f7544ed8643af7ea56f710b", async() => {
                 BeginContext(399, 26, false);
 #line 14 "C:\Projects\SmartAssistant\Website\SmartAssistant\Views\Roles\UserList.cshtml"
                                                                                            Write(Localizer["Access rights"]);

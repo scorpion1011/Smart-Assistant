@@ -158,7 +158,7 @@ Write(Localizer["List Info"]);
             WriteLiteral("благодаря этому линия встает справа от текста\r\n    */\r\n            margin-right: -100%;\r\n        }\r\n</style>\r\n\r\n");
             EndContext();
             BeginContext(2371, 51, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "2d40f873c8c1446bb3112478853ab7a7", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("script", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "10c05ab9266b456295a7adccb4affe87", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -245,7 +245,7 @@ Write(Localizer["List Info"]);
             WriteLiteral("\r\n            </th>\r\n            <th>\r\n                ");
             EndContext();
             BeginContext(2928, 335, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "9145b0060bcd42f5af1095f3fc3a3998", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fad7d50b67c94083a4b4bd7010f1655c", async() => {
                 BeginContext(2997, 64, true);
                 WriteLiteral("\r\n                    <input type=\"hidden\" name=\"previousMarkId\"");
                 EndContext();
@@ -312,7 +312,7 @@ WriteAttributeValue("", 3069, thing.idThing, 3069, 14, false);
             WriteLiteral("</table>\r\n\r\n<table id=\"list_table\" class=\"table\" style=\"margin-top: 20px;\">\r\n    <tr>\r\n        <th>\r\n            <a></a>\r\n            ");
             EndContext();
             BeginContext(3440, 160, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "0cb4dec62a7e434d93b02f95ae6138bd", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b2e436855fd34fa693943aff926bf257", async() => {
                 BeginContext(3556, 40, false);
 #line 115 "C:\Projects\SmartAssistant\Website\SmartAssistant\Views\Shops\ShopThings.cshtml"
                                                                                                                           Write(Localizer["Add a new thing to the shop"]);

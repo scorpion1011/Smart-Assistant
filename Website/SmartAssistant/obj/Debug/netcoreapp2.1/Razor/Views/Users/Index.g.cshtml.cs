@@ -79,7 +79,7 @@ using Microsoft.AspNetCore.Mvc.Localization;
             WriteLiteral("\r\n");
             EndContext();
             BeginContext(186, 133, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e4f82680332b4c5692606bcc85800062", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "55dbd51bd7934df593bd686295e8b24f", async() => {
                 BeginContext(287, 28, false);
 #line 10 "C:\Projects\SmartAssistant\Website\SmartAssistant\Views\Users\Index.cshtml"
                                                                                                Write(Localizer["Create new user"]);
@@ -146,12 +146,12 @@ using Microsoft.AspNetCore.Mvc.Localization;
             WriteLiteral("</td>\r\n            <td>\r\n                ");
             EndContext();
             BeginContext(567, 501, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fb9a28be25fe48748bbb50c0935f76fb", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4dd3f7dd2a074e6fb37400419b1ae6ff", async() => {
                 BeginContext(631, 22, true);
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(653, 98, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "04156f2c6da94869a8b3821cc9662c51", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "17446708393a4320a59fa166acec335f", async() => {
                     BeginContext(730, 17, false);
 #line 21 "C:\Projects\SmartAssistant\Website\SmartAssistant\Views\Users\Index.cshtml"
                                                                                            Write(Localizer["Edit"]);
@@ -191,7 +191,7 @@ using Microsoft.AspNetCore.Mvc.Localization;
                 WriteLiteral("\r\n                    ");
                 EndContext();
                 BeginContext(773, 119, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a47cb9fc9b2e4bdcaf705dbcdccee3e1", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c591835c4ae84f14afad58db8746ccef", async() => {
                     BeginContext(860, 28, false);
 #line 22 "C:\Projects\SmartAssistant\Website\SmartAssistant\Views\Users\Index.cshtml"
                                                                                                      Write(Localizer["Change password"]);

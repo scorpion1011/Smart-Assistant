@@ -13,11 +13,15 @@
         <input type="hidden" asp-for="Id" />
     </div>
     <div class="form-group">
-        <label asp-for="FirstName" class="control-label">First name</label>
+        <label asp-for="FirstName" class="control-label">
+            @Localizer["First name"]
+        </label>
         <input type="text" asp-for="FirstName" class="form-control" />
     </div>
     <div class="form-group">
-        <label asp-for="LastName" class="control-label">Last name</label>
+        <label asp-for="LastName" class="control-label">
+            @Localizer["Last name"]
+        </label>
         <input type="text" asp-for="LastName" class="form-control" />
     </div>
     <div class="form-group">

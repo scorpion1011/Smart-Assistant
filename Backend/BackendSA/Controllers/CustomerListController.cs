@@ -26,7 +26,7 @@ namespace BackendSA.Controllers
 
             using (SqlConnection connection = new SqlConnection(connString))
             {
-                var commandText = "select idThing, name, kind from Things as t, CustomerLists as l where t.CustomerListidList = l.idList and l.idUser = @userId";
+                var commandText = "select idUserThing, name, kind from UsersThings as t where t.UserId = @userId";
                 using (SqlCommand command = new SqlCommand(commandText))
                 {
                     command.Connection = connection;
@@ -53,20 +53,36 @@ namespace BackendSA.Controllers
             return list;
         }
 
-        [HttpPost("{userId}/{name}/{latitude}/{longitude}/{area}")]
-        public void AddShop(string userId, string name, int latitude, int longitude, int area)
+        [HttpPost("{userId}/{name}/{kind}")]
+        public void AddShop(string userId, string name, string kind)
         {
             using (SqlConnection connection = new SqlConnection(connString))
             {
-                var commandText = "INSERT INTO Shops (name, latitude, longitude, area, UserId) VALUES (@name, @latitude, @longitude, @area, @UserId)";
+                var commandText = "INSERT INTO UsersThings (name, kind, UserId) VALUES (@name, @kind, @UserId)";
                 using (SqlCommand command = new SqlCommand(commandText))
                 {
                     command.Connection = connection;
                     command.Parameters.Add("@name", SqlDbType.VarChar, 100).Value = name;
-                    command.Parameters.Add("@latitude", SqlDbType.Int, 100).Value = latitude;
-                    command.Parameters.Add("@longitude", SqlDbType.Int, 100).Value = longitude;
-                    command.Parameters.Add("@area", SqlDbType.Int, 100).Value = area;
+                    command.Parameters.Add("@kind", SqlDbType.VarChar, 100).Value = kind;
                     command.Parameters.Add("@UserId", SqlDbType.VarChar, 100).Value = userId;
+                    connection.Open();
+                    command.ExecuteNonQuery();
+                    connection.Close();
+                }
+            }
+        }
+
+        [HttpDelete("{IdThing}/{IdUser}")]
+        public void DeleteShop(int IdThing, string IdUser)
+        {
+            using (SqlConnection connection = new SqlConnection(connString))
+            {
+                var commandText = "DELETE FROM UsersThings WHERE idUserThing = @IdThing and UserId = @IdUser";
+                using (SqlCommand command = new SqlCommand(commandText))
+                {
+                    command.Connection = connection;
+                    command.Parameters.Add("@IdThing", SqlDbType.Int, 100).Value = IdThing;
+                    command.Parameters.Add("@IdUser", SqlDbType.VarChar, 100).Value = IdUser;
                     connection.Open();
                     command.ExecuteNonQuery();
                     connection.Close();

@@ -82,7 +82,7 @@
 <script src="~/lib/jquery/dist/jquery.js"></script>
 
 <table class="table" style="margin-top: 20px;">
-    <tr><th>@Localizer["Thing name"]</th><th>@Localizer["The appropriate mark"]</th><th>@Localizer["Mark owner"]</th><th></th></tr>
+    <tr><th>@Localizer["Thing name"]</th><th>@Localizer["Thing kind"]</th><th></th></tr>
     <tr><th colspan="4"></th></tr>
     @foreach (var thing in Model.things)
     {
@@ -94,7 +94,7 @@
                 @thing.kind
             </th>
             <th>
-                <form asp-action="DeleteItem" asp-route-id="@thing.idThing" method="post">
+                <form asp-action="Delete" asp-route-id="@thing.idThing" method="post">
                     <input type="hidden" name="previousMarkId" value="@thing.idThing" />
                     <button type="submit" class="btn btn-sm btn-danger">
                         @Localizer["Delete"]
